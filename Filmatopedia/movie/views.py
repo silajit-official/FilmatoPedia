@@ -12,6 +12,7 @@ from django.utils import timezone
 
 def index(request):
     dict={'fresh':True}
+    #first page
     return render(request,'Filmatopedia/index.html',dict)
 
 def about(request):
